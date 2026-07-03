@@ -102,7 +102,7 @@ The mixed-cohort scripts optionally accept fold indices, e.g.
 Each run writes a metrics CSV (and a results pickle) to the output directory set
 in `config.py`. The CSV contains every combination of objective, threshold
 strategy, and calibration mode. **The numbers reported in the paper use
-calibration = `isotonic_off`, the MCC objective, and the MCC threshold**, so
+calibration = `isotonic_off`, the F2 objective, and the MCC threshold**, so
 filter the CSV to `calibration == 'isotonic_off'` to match the manuscript. AUC
 is invariant to calibration; MCC, sensitivity, and specificity are not.
 
