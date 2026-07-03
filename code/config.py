@@ -3,8 +3,7 @@ BIOADAPT-ARCHETYPE v6 — Configuration
 ========================================
 Changes vs previous run:
   - PRIMARY_COHORTS: I14_riaz added back. Class imbalance (20% responders)
-    handled by SMOTE. Note: I14 contains on-treatment biopsies (Day 15
-    post-nivolumab) — a known limitation discussed in the LOCO analysis.
+    handled by SMOTE.
   - N_ARCHETYPE_OPTUNA_TRIALS: separate Optuna tuning for archetype experts
     on pathway features. Fixes hyperparameter mismatch flagged in review.
   - USE_STABLE_PRESCREEN: pathway prescreen computed as intersection of
